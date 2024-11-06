@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil médecin</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <style>
+        .bg-home{
+            background-image: url("img/thoughtful-young-man-looking-up-dark_14117-410056.avif");
+            background-size: cover;
+            background-position: center;
+            height: 1500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-customGray">
+    <section class="bg-home pl-[150px] pr-[50px] shadow-lg">    
+    <div class="flex justify-between items-center py-[50px] ">
+        <a href="#">
+            <img src="" class="max-w-full h-auto w-28" alt="profil">
+        </a>
+        <div class="block lg:hidden">
+            <button id="menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>                
+            </button>
+        </div>
+        <div class="hidden lg:flex space-x-16">
+            <a href="#" class="font-semibold text-white lg:text-3xl hover:text-customDarkBrown">About</a>
+            <a href="#" class="font-semibold text-customLightWight lg:text-3xl hover:text-customDarkBrown">Portfolio</a>
+            <a href="#" class="font-semibold text-customLightWight lg:text-3xl hover:text-customDarkBrown">Contact</a>
+        </div>  
+        <div class="relative">
+            <div class="flex">
+                <input type="text" placeholder="Search" class="border bg-customLightWight shadow-lg rounded-xl py-2 pl-2 h-16 focus:outline-none text-lg">
+                <div class="absolute inset-y-0 right-3 pl-3 flex items-center pointer-events-none">
+                    <svg class="h-10 w-10 text-gray-400" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+            </div>
+            
+        </div>      
+    </div>
+    <div class="lg:hidden hidden lg:flex justify-between">
+        <div class="flex flex-col items-center">
+            <p>Doctor's profile</p>
+            <p>Patient time 8:00am - 5:00pm</p>
+        </div>
+    <div id="menu" class="lg:hidden hidden flex-col space-y-2 bg-white px-4 py-2 space-x-8">
+        <a href="#" class="font-semibold lg:text-3xl hover:text-customDarkBrown">About</a>
+        <a href="#" class="font-semibold  lg:text-3xl hover:text-customDarkBrown">Portfolio</a>
+        <a href="#" class="font-semibold  lg:text-3xl hover:text-customDarkBrown">Contact</a>
+    </div>
+    </div>
+    
+    <div class="flex flex-col space-y-14 text-white text-4xl pl-16 pt-60">
+        <h1>I'M <span class="text-yellow-500 text-7xl">Ivan Dan</span></h1>
+        <p>Python developer & ERPNext <br>Consultant</p>
+        <button class="border border-yellow-500 text-yellow-500 rounded-2xl w-fit p-4">Contact Me</button>
+    </div>
+    <div class="absolute inset-y-0 right-[70px] flex items-center text-white ">
+        <div class="flex flex-col space-x-4">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-pinterest'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </div>
+    </section>
+    
+    <section class="pl-[150px] pr-[50px] py-16">
+        <div class="text-white text-3xl">
+            <h1 class="text-7xl">About </h1>
+            <div class="flex items-center">
+                <div class="h-[5px] bg-yellow-500 w-[150px] "></div>
+                <span class="px-2">
+                    I have acquired and sharpened m ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum vn organization.I am <span class="text-yellow-500">trustworthy, creative, and an effective communicator. </span> I fondly anticipate working in a challenging yet rewarding organization to attain its visions for personal growth.</span>
+            </div>
+        </div>
+    </section>
+    <section class="pl-[150px] pr-[50px] py-16">
+        <div class="flex items-center justify-center text-white text-3xl">
+            <h1 class="text-7xl self-center">My Skills </h1>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10  justify-center">
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Python</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/flutter.png" alt="Flutter Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Flutter</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/ubuntu--v1.png" alt="Ubuntu Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Ubuntu</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Git Source Control</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/erp.png" alt="ERPNext Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">ERPNext</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">MongoDB</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML/CSS Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">HTML & CSS</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">JavaScript</h2>
+            </div>
+            
+        </div>
+        <div class="flex place-self-center justify-evenly w-[50%] py-4">
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/frappe.png" alt="Frappe Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Frappe</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/net-framework.png" alt=".Net Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold ">.Net</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/flask.png" alt="Flask Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">Flask</h2>
+            </div>
+
+        </div>
+        <div class="flex justify-evenly place-self-center w-[50%]">
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">MySQL</h2>
+            </div>
+            <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-600 transition duration-300">
+                <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS Icon" class="w-12 h-12">
+                <h2 class="mt-4 text-lg font-semibold">AWS Server</h2>
+            </div>
+        </div>
+        
+    </section>
+    <section class="pl-[150px] pr-[50px]">
+        <div class="flex items-center justify-center text-white text-3xl">
+            <h1 class="text-7xl self-center">Portfolio </h1>
+        </div>
+        <div class="grid grid-cols-3 gap-10">
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (1).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (2).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (3).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (4).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (5).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+            <div class="relative overflow-hidden hover:scale-110">
+                <img src="img/téléchargement (6).jpeg" class="relative" alt="ERPNext Icon">
+                <div class="absolute inset-0 flex flex-col justify-center items-center">*
+                    <div class="flex flex-col justify-between items-center mb-2 text-white">
+                        <h1 >Amazon Scrapper</h1>
+                        <p>A simple blog which has user <br> authentification such as Sign up, <br> and Sign in ...</p>
+                        <button class="bg-yellow-500 rounded-2xl w-fit p-4">See more -></button>
+                    </div>
+                </div>
+            </div>
+         
+            </div>
+        </div>
+        <div class="flex items-center justify-center text-3xl">
+            <button class="bg-yellow-500 rounded-2xl w-fit p-4">View More </button>
+        </div>
+    </section>
+    
+</body>
+</html>
